@@ -1,0 +1,111 @@
+@import url(base.css);
+
+
+/*头部开始*/
+header {
+	background: #fff;
+	width: 100%;
+	height: .5rem;
+	display: flex;
+	justify-content: space-between;
+	padding: .02rem .13rem 0;
+	z-index: 10;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#header {
+	height: .5rem;
+	width: 100%;
+}
+.head-center {
+	width: 1.2rem;
+	height: 100%;
+	line-height: .5rem;
+	font-size: .16rem;
+	color: #f0f0f0;
+}
+.head-title {
+	width: .53rem;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	color: #2a2a2a;
+}
+.head-title.click {
+	border-bottom: .01rem solid #f2595b;
+	color: #f84b51;
+}
+.head-left,
+.head-right {
+	width: .3rem;
+	height: 100%;
+	display: block;
+	line-height: .5rem;
+}
+.head-right {
+	text-align: right;
+}
+.iconfont {
+	font-size: .18rem;
+	color: #bdbdbd;
+	vertical-align: middle;
+}
+.iconfont.search-icon {
+	font-size: .2rem;
+}
+/*头部结束*/
+
+
+/*图片部分开始*/
+.pic-area {
+	width: 100%;
+	height: 2.46rem;
+}
+.pic-area a,
+.pic-area a img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*图片部分结束*/
+
+/*主体新闻列表区域开始*/
+.con-text {
+	height: 1.04rem;
+	width: 100%;
+}
+.con-text a {
+	display: block;
+	height: 100%;
+	height: 100%;
+	border-bottom: .01rem solid #f0f0f0;
+	border-top: .01rem solid #f0f0f0;
+	display: flex;
+	justify-content: space-between;
+}
+.text {
+	width: 100%;
+	height: 100%;
+	padding: .06rem .12rem 0 .13rem;
+}
+.text p {
+	color: #9f9f9f;
+	font-size: .12rem;
+	line-height: .22rem;
+}
+.text-top {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.text h3 {
+	color: #000;
+	font-size: .16rem;
+	font-weight: 500;
+	line-height: .24rem;
+}
+.icon-tupian {
+	vertical-align: -.02rem;
+	margin-right: .06rem;
+}

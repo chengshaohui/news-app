@@ -1,0 +1,164 @@
+@import url(base.css);
+
+/*头部开始*/
+header {
+	background: #fff;
+	width: 100%;
+	height: .5rem;
+	display: flex;
+	justify-content: space-between;
+	padding: .02rem .13rem 0;
+	
+}
+.head-center {
+	width: 1.2rem;
+	height: 100%;
+	line-height: .5rem;
+	font-size: .16rem;
+	color: #f0f0f0;
+}
+.head-title {
+	width: .53rem;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	color: #2a2a2a;
+}
+.head-title.click {
+	border-bottom: .01rem solid #f2595b;
+	color: #f84b51;
+}
+.head-left,
+.head-right {
+	width: .3rem;
+	height: 100%;
+	display: block;
+	line-height: .5rem;
+}
+.head-right {
+	text-align: right;
+}
+.iconfont {
+	font-size: .18rem;
+	color: #bdbdbd;
+	vertical-align: middle;
+}
+.iconfont.search-icon {
+	font-size: .2rem;
+}
+/*头部结束*/
+
+
+
+
+/*导航开始*/
+nav {
+	width: 100%;
+	border-top: .01rem solid #ebebed;
+	height: .43rem;
+}
+.nav-arrow {
+	display: block;
+	position: absolute;
+	width: .44rem;
+	height: .42rem;
+	right: 0;
+	top: 0;
+	background: #fff;
+	line-height: .42rem;
+	text-align: center;
+	transform: rotate(180deg);
+}
+.icon-arrow-up {
+	vertical-align: .08rem;
+}
+.nav {
+	width: 100%;
+	background: #ddd;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 .13rem;
+}
+.nav a {
+	display: block;
+	font-size: .14rem;
+	color: #979797;
+	line-height: .41rem;
+}
+.nav-click a {
+	color: #f6525b;
+}
+/*导航结束*/
+/*轮番图开始*/
+.banner-area {
+	height: 1.77rem;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.swiper-wrapper {
+	position: absolute;
+	width: 500%;
+}
+.banner-area .swiper-slide {
+	float: left;
+	width: 20%;
+}
+.banner-area a,
+.banner-area a img {
+	display: block;
+	width: 100%;
+	height: 1.77rem;
+}
+
+/*轮番图结束*/
+
+/*主体新闻列表区域开始*/
+.con-list {
+	width: 100%;
+	height: auto;
+}
+.content {
+	padding-left: .12rem;
+}
+.content li {
+	height: 1.04rem;
+	width: 100%;
+}
+.content li a {
+	display: block;
+	height: 100%;
+	height: 100%;
+	border-bottom: .01rem solid #f0f0f0;
+	padding-right: .13rem;
+	padding-top: .12rem;
+	display: flex;
+	justify-content: space-between;
+}
+.con-left {
+	width: 2.28rem;
+	height: 100%;
+}
+.con-left p {
+	color: #9f9f9f;
+	font-size: .12rem;
+	line-height: .22rem;
+}
+.con-left h3 {
+	color: #000;
+	font-size: .16rem;
+	font-weight: 500;
+	line-height: .2rem;
+}
+.con-right {
+	width: .78rem;
+	height: 100%;
+	line-height: 1.04rem;
+}
+.con-right img {
+	display: inline-block;
+	width: 100%;
+	height: .78rem;
+}
+/*主体新闻列表区域结束*/

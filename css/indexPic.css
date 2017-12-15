@@ -1,0 +1,59 @@
+@import url(base.css);
+
+.wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #fff;
+}
+.wrap img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	position: absolute;
+	left: 0;
+	bottom: 1.78rem;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #fff;
+}
+.title h1 {
+	font-size: .36rem;
+	font-weight: 400;
+}
+.title h1 span {
+	color: #cb2f79;
+}
+
+.login-list {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	font-size: .16rem;
+}
+.login-list li {
+	height: .65rem;
+	width: 100%;
+	text-align: center;
+	line-height: .65rem;
+}
+.login-list li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.login-list .regis {
+	background: rgba(128,4,56,.8);
+}
+.login-list .login {
+	background: rgba(5,11,25,.8);
+}

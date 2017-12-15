@@ -1,0 +1,104 @@
+@import url(base.css);
+
+.wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #fff;
+}
+.wrap img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	background: rgba(0,0,0,.5);
+}
+.input-box {
+	position: absolute;
+	top: .24rem;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+.input-box a {
+	display: block;
+	padding-left: .18rem;
+	padding-bottom: .08rem;
+	color: #787c88;
+}
+.input-list {
+	width: 100%;
+	padding: 0 .32rem;
+}
+.input-list li {
+	height: .6rem;
+	border-bottom: .01rem solid #5c5a65;
+}
+.input-list li input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: transparent;
+}
+.input-list::-webkit-input-placeholder { /* WebKit browsers */
+    color: #645e68;
+}
+.input-list:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #645e68;
+}
+.input-list::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #645e68;
+}
+.input-list:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #645e68;
+}
+.input-list .onclick {
+	border-bottom-color: #fff;
+}
+.input-list .onclick input {
+	color: #fff;
+}
+.login-list {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	font-size: .16rem;
+}
+.login-list li {
+	height: .65rem;
+	width: 100%;
+	text-align: center;
+	line-height: .65rem;
+}
+.login-list li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.login-list .login {
+	background: rgba(128,4,56,.8);
+}
+
+.forget-psw {
+	display: block;
+	height: .44rem;
+	width: 100%;
+	padding-right: .45rem;
+	text-align: right;
+	line-height: .44rem;
+	color: #767477;
+}

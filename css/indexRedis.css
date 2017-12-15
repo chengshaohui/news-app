@@ -1,0 +1,85 @@
+@import url(base.css);
+
+.wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: #fff;
+}
+.wrap img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	background: rgba(0,0,0,.5);
+	padding: .2rem;
+}
+.back {
+	display: block;
+	padding-bottom: .08rem;
+	color: #787c88;
+}
+.input-box label {
+	position: relative;
+}
+.input-box label span {
+	color: #ddd;
+	position: absolute;
+	top: 0;
+	left: .02rem;
+	font-size: .14rem;
+}
+.input-box input {
+	padding-left: .4rem;
+	border: none;
+	width: 100%;
+	background: transparent;
+	height: .5rem;
+	border-bottom: .01rem solid #5c5a65;
+	color: #fe5f01;
+}
+.login-list {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	font-size: .16rem;
+}
+.login-list a {
+	display: block;
+	height: .65rem;
+	width: 100%;
+	text-align: center;
+	line-height: .65rem;
+	color: #fff;
+	background: rgba(128,4,56,.8);
+}
+
+.forget-psw {
+	height: .44rem;
+	width: 100%;
+	padding-right: .45rem;
+	text-align: right;
+	line-height: .44rem;
+	color: #ccc;
+}
+.forget-psw span {
+	text-decoration: underline;
+}
+.forget-psw input {
+	margin: 0;
+	vertical-align: middle;
+	margin-right: .04rem;
+}

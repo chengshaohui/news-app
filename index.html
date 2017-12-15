@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,maximum-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" href="img/xinwen.ico">
+	<title>新闻主页</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="./js/rem.js"></script>
+	<script src="./js/iscroll.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script>
+		$(function () {
+			var swiper = new Swiper('.swiper-container', {
+			    pagination: '.swiper-pagination', //
+			    paginationClickable: true,  //分页可点击
+			    spaceBetween: 30,   
+			    centeredSlides: true,
+			    autoplay: 2500,  //自动切换
+			    autoplayDisableOnInteraction: false  //
+			});
+			// var myScroll;
+			// myScroll = new IScroll('#wrapper', {
+			// 	scrollbars: true,       
+			// 	mouseWheel: true,
+			// 	interactiveScrollbars: true,
+			// 	shrinkScrollbars: 'scale',
+			// 	fadeScrollbars: true,
+			// 	vScroll: true,
+			// 	touchActive: true,
+			// });
+		})
+	</script>
+</head>
+<body>
+	<!-- 头部开始 -->
+	<header>
+		<a href="login.html" class="head-left"><i class="iconfont icon-gerenzhongxinxia"></i></a>
+		<div class="head-center">
+			<a class="head-title click" href="">新闻</a>
+			<span>|</span>
+			<a class="head-title" href="pic.html">图片</a>
+		</div>
+		<a href="search.html" class="head-right"><i class="iconfont icon-sousuo2"></i></a>
+	</header>
+	<!-- 头部结束 -->
+	<!-- 导航开始 -->
+	<nav>
+		<ul class="nav">
+			<li><a href="">头条</a></li>
+			<li class="nav-click"><a href="">体育</a></li>
+			<li><a href="">汽车</a></li>
+			<li><a href="">购物</a></li>
+			<li><a href="">旅游</a></li>
+			<li><a href="">艺术</a></li>
+			<li><a href="">科技</a></li>
+		</ul>
+		<a class="nav-arrow" href=""><i class="iconfont icon-arrow-up"></i></a>
+	</nav>
+	<div id="nav"></div>
+	<!-- 导航结束 -->
+	<div id="wrapper">
+		<div id="scroller">
+			<!-- 轮番图开始 -->
+			<div class="swiper-container banner-area">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<a href=""><img src="img/banner1.jpg" alt=""></a>
+			        </div>
+			        <div class="swiper-slide">
+			        	<a href=""><img src="img/banner2.jpg" alt=""></a>
+			        </div>
+			        <div class="swiper-slide">
+			        	<a href=""><img src="img/banner3.jpg" alt=""></a>
+			        </div>
+			        <div class="swiper-slide">
+			        	<a href=""><img src="img/banner4.jpg" alt=""></a>
+			        </div>
+			    </div>
+			    <!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			    <!-- Add Arrows -->
+			    <!-- <div class="swiper-button-next"></div> -->
+			    <!-- <div class="swiper-button-prev"></div> -->
+			</div>
+			<!-- 轮番图结束 -->
+
+			<!-- 主体新闻列表区域开始 -->
+			<section class="con-list">
+				<ul class="content">
+					<li>
+						<a href="newCon.html">
+							<div class="con-left">
+								<p>中国青年报 28分钟前</p>
+								<h3>为什么有些人活着已经死了，而有的人死了却还活着？</h3>
+								<p>阅读：2345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/news1.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>羊城晚报 40分钟前</p>
+								<h3>霁月清风，琅琊榜首</h3>
+								<p>阅读：2345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/new2.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>中国青年报 28分钟前</p>
+								<h3>《小王子》：成为一个优秀的大人</h3>
+								<p>阅读：12345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/new3.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>中国青年报 28分钟前</p>
+								<h3>为什么有些人活着已经死了，而有的人死了却还活着？</h3>
+								<p>阅读：2345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/news1.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>羊城晚报 40分钟前</p>
+								<h3>霁月清风，琅琊榜首</h3>
+								<p>阅读：2345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/new2.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>中国青年报 28分钟前</p>
+								<h3>《小王子》：成为一个优秀的大人</h3>
+								<p>阅读：12345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/new3.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>中国青年报 28分钟前</p>
+								<h3>为什么有些人活着已经死了，而有的人死了却还活着？</h3>
+								<p>阅读：2345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/news1.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>羊城晚报 40分钟前</p>
+								<h3>霁月清风，琅琊榜首</h3>
+								<p>阅读：2345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/new2.png" alt="">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="con-left">
+								<p>中国青年报 28分钟前</p>
+								<h3>《小王子》：成为一个优秀的大人</h3>
+								<p>阅读：12345次·评论：12.5万</p>
+							</div>
+							<div class="con-right">
+								<img src="img/new3.png" alt="">
+							</div>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<!-- 主体新闻列表区域结束 -->
+		</div>
+	</div>
+
+
+
+	
+
+
+</body>
+</html>
